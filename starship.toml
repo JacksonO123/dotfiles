@@ -1,0 +1,21 @@
+# format = """
+# [╭─](green)[ 󰣇 ](blue)$username$directory$git_branch$git_metrics
+# [╰─](green) """
+
+format = """
+[╭─](green) $username$directory$git_branch$git_metrics
+[╰─](green) """
+
+add_newline = false
+
+[directory]
+style = 'bold purple'
+format = '[$path]($style)[$read_only]($read_only_style) '
+
+[git_branch]
+style = 'bold yellow'
+format = '[\($branch(:$remote_branch)\)]($style) '
+
+[git_metrics]
+disabled = false
+format = '[+$added]($added_style)[-$deleted]($deleted_style) '

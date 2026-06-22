@@ -1,0 +1,20 @@
+[Added Associations]
+application/pdf=google-chrome-stable-2.desktop;google-chrome-stable.desktop;
+image/heif=feh.desktop;
+image/jpeg=feh-8.desktop;feh-7.desktop;feh.desktop;
+image/png=/home/jotto/.local/share/applications/feh-6.desktop;
+text/plain=google-chrome.desktop;
+
+[Default Applications]
+application/pdf=google-chrome-stable-2.desktop;
+image/heif=feh.desktop;
+image/jpeg=feh-8.desktop;
+image/png=/home/jotto/.local/share/applications/feh-6.desktop;
+text/html=google-chrome.desktop;
+text/plain=google-chrome.desktop;
+x-scheme-handler/about=google-chrome.desktop;
+x-scheme-handler/discord=vesktop.desktop
+x-scheme-handler/http=google-chrome.desktop;
+x-scheme-handler/https=google-chrome.desktop;
+x-scheme-handler/unknown=google-chrome.desktop;
+x-scheme-handler/webcal=google-chrome.desktop;

@@ -1,0 +1,47 @@
+[window]
+opacity = 0.85
+#opacity = 0.65
+padding.x = 10
+padding.y = 10
+decorations = "Full"
+decorations_theme_variant = "Dark"
+
+[colors.primary]
+background = "#181818"
+#background = "#232e36"
+
+[font]
+size = 12
+
+[font.normal]
+family = "AdwaitaMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "AdwaitaMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "AdwaitaMono Nerd Font"
+style = "Italic"
+
+[font.bold_italic]
+family = "AdwaitaMono Nerd Font"
+style = "Bold Italic"
+
+## blue bs
+#opacity = 1
+
+#[colors.primary]
+##background = "#000087"
+#background = "#ffffff"
+
+#[font]
+#normal.family = "BigBlueTerm437NerdFont"
+#normal.style = "Regular"
+#bold.family = "BigBlueTerm437NerdFont"
+#bold.style = "Regular"
+#italic.family = "BigBlueTerm437NerdFont"
+#italic.style = "Regular"
+#bold_italic.family = "BigBlueTerm437NerdFont"
+#bold_italic.style = "Regular"

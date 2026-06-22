@@ -1,0 +1,27 @@
+MenuBar=Disabled
+
+[Baloo KEditCommentDialog]
+2560x1440 screen: Window-Maximized=true
+
+[CompactMode]
+PreviewSize=80
+
+[General]
+Version=202
+ViewPropsTimestamp=2025,5,1,23,4,13.002
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,glycin-heif,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,glycin-image-rs,jpegthumbnail,glycin-jxl,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,glycin-svg,svgthumbnail
+
+[Search]
+Location=Everywhere
+
+[UiSettings]
+ColorScheme=BreezeClassic

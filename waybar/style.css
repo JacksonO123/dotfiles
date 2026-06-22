@@ -1,0 +1,27 @@
+@import "tokens/colors.css";
+@import "tokens/state.css";
+@import "tokens/workspace.css";
+@import "tokens/widget.css";
+@import "tokens/batt-clock.css";
+@import "tokens/slider.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    min-height: 0px;
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font";
+}
+
+@define-color bg_main rgba(24, 24, 24, 0.85);
+@define-color border_main rgba(255, 255, 255, 0.2);
+@define-color outer-border #020508;
+@define-color inner-border #606365;
+@define-color inner-border-lighter-inactive #878e91;
+@define-color inner-border-lighter-active #a1a9ad;
+
+window#waybar {
+    border-top: 1px solid @border_main;
+    background: @bg_main;
+}

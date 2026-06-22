@@ -1,0 +1,32 @@
+{
+    "custom/distro": {
+        "format": "",
+        "on-click": "~/.local/bin/control-center",
+        "tooltip": false
+    },
+    "custom/search": {
+        "format": "",
+        "on-click": "~/.config/hypr/scripts/launch-wofi",
+        "tooltip": false
+    },
+    "custom/terminal": {
+        "format": "󰆍",
+        "on-click": "alacritty",
+        "tooltip": false
+    },
+    "custom/files": {
+        "format": "",
+        "on-click": "dolphin",
+        "tooltip": false
+    },
+    "custom/spotify": {
+        "format": "",
+        "on-click": "spotify-launcher",
+        "tooltip": false
+    },
+    "custom/browser": {
+        "format": "",
+        "on-click": "google-chrome-stable",
+        "tooltip": false
+    }
+}

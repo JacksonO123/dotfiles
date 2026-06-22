@@ -1,0 +1,24 @@
+@import "colors.rasi"
+
+* {
+  background-color:       transparent;
+  text-color:             @fg;
+  font:				 	"Adwaita Mono Nerd Font 10";
+
+  accent-color:     #64B5F6;
+}
+
+window {
+  width:      			225px;
+  padding:    			25px;
+  border:					1px;
+  border-radius:          10px;
+  border-color:           @accent-color;
+  location:               center;
+  background-color: #2e34404d;
+}
+
+entry {
+  expand: 				true;
+  text-color:				@accent-color;
+}
