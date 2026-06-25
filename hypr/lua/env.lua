@@ -1,0 +1,16 @@
+-- See https://wiki.hypr.land/Configuring/Advanced-and-Cool/Environment-variables/
+
+hl.env("HYPRCURSOR_SIZE", "20")
+hl.env("XCURSOR_SIZE", "20")
+hl.env("LIBVA_DRIVER_NAME", "nvidia")
+hl.env("__GLK_VENDOR_LIBRARY_NAME", "nvidia")
+hl.env("ELECTRON_OZONE_PLATFORM_HINT", "auto")
+hl.env("NVD_BACKEND", "direct")
+hl.env("MOZ_DISABLE_RDD_SANDBOX", "1")
+hl.env("__EGL_VENDOR_LIBRARY_FILENAMES", "/usr/share/glvnd/egl_vendor.d/10_nvidia.json")
+hl.env("GBM_BACKEND", "nvidia-drm")
+hl.env("XDG_MENU_PREFIX", "arch- kbuildsycoca6")
+hl.env("QT_QPA_PLATFORMTHEME", "qt6ct")
+hl.env("XDG_CURRENT_DESKTOP", "Hyprland")
+hl.env("XDG_SESSION_TYPE", "wayland")
+hl.env("XDG_SESSION_DESKTOP", "Hyprland")
