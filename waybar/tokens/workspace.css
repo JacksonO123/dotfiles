@@ -21,7 +21,7 @@
     border-radius: 6px;
     border: 1px solid @outer-border;
     color: white;
-    transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94), color 0.15s ease;
+    transition: all 0.2s linear, color 0.15s ease;
     box-shadow: inset 0 0 0 1px @inner-border;
 }
 
