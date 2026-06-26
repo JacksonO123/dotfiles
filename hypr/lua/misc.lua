@@ -23,4 +23,8 @@ hl.config({
             natural_scroll = false,
         },
     },
+
+    cursor = {
+        no_warps = true,
+    },
 })
