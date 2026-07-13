@@ -1,5 +1,6 @@
 [Added Associations]
 application/pdf=google-chrome-stable-2.desktop;google-chrome-stable.desktop;
+application/zip=unzip.desktop;
 image/heif=feh.desktop;
 image/jpeg=feh-8.desktop;feh-7.desktop;feh.desktop;
 image/png=/home/jotto/.local/share/applications/feh-6.desktop;
@@ -7,6 +8,7 @@ text/plain=google-chrome.desktop;
 
 [Default Applications]
 application/pdf=google-chrome-stable-2.desktop;
+application/zip=unzip.desktop;
 image/heif=feh.desktop;
 image/jpeg=feh-8.desktop;
 image/png=/home/jotto/.local/share/applications/feh-6.desktop;

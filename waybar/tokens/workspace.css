@@ -57,7 +57,7 @@
 }
 
 #workspaces button.urgent {
-    color: @error_container;
+    background-color: @error_container;
 }
 
 #workspaces button label:first-child {

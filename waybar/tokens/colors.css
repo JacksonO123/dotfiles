@@ -5,7 +5,8 @@
 
 @define-color error #ffb4ab;
 
-@define-color error_container #93000a;
+/* @define-color error_container #93000a; */
+@define-color error_container #cc4750;
 
 @define-color inverse_on_surface #2c3134;
 
