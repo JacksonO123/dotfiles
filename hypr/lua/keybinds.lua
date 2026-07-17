@@ -3,7 +3,7 @@ local fileManager = "dolphin"
 local browser = "google-chrome-stable"
 local audio = "pwvucontrol"
 local screenshot = "hyprshot -m region -o ~/screenshots"
-local menu = "~/.local/bin/spotlight --config ~/.config/jotto-utils/spotlight/app.conf"
+local menu = "~/.local/bin/spotlight --config ~/.config/jotto-utils/spotlight/desktop.conf"
 
 local mainMod = "SUPER"
 
