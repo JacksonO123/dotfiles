@@ -5,7 +5,7 @@
         "tooltip": false
     },
     "custom/search": {
-        "format": "",
+        "format": "",
         "on-click": "~/.local/bin/spotlight --config ~/.config/jotto-utils/spotlight/desktop.conf",
         "tooltip": false
     },
