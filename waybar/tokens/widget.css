@@ -67,7 +67,7 @@
 #system,
 #storage {
     margin-top: 4px;
-    margin-right: 12px;
+    margin-right: 20px;
     /* padding: 6px 6px; */
     /* background-color: @surface_container; */
     /* border-radius: 20px; */
@@ -86,10 +86,13 @@
 #disk,
 #memory,
 #cpu,
-#temperature,
-#bluetooth {
+#temperature {
     margin-right: 2px;
     padding: 0 8px;
+}
+
+#bluetooth {
+    margin-right: 8px;
 }
 
 #temperature {
@@ -113,7 +116,7 @@
 
 #custom-tray-arrow {
     /* padding: 6px 14px 6px 10px; */
-    padding-right: 4px;
+    padding-right: 8px;
     margin-right: 12px;
     margin-top: 4px;
     color: @primary;
