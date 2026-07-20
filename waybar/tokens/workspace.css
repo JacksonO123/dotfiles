@@ -33,8 +33,11 @@
     color: white;
 }
 
-#workspaces button.magic.special {
+#workspaces button.magic.special:not(.urgent) {
     padding-left: 11px;
+}
+
+#workspaces button.magic.special {
     color: #6e6e6e;
 }
 
