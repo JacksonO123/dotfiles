@@ -12,7 +12,9 @@
             "special": "",
             "default": "",
             "urgent": "",
-            "empty": ""
+            "empty": "",
+            "magic": "",
+            "special:magic": ""
         },
         "show-special": true,
         "all-outputs": true

@@ -33,8 +33,14 @@
     color: white;
 }
 
-#workspaces button.special {
-    color: @tertiary_fixed;
+#workspaces button.magic.special {
+    padding-left: 11px;
+    color: #6e6e6e;
+}
+
+#workspaces button.magic.special.visible {
+    padding-left: 16px;
+    color: white;
 }
 
 #workspaces button:hover {
