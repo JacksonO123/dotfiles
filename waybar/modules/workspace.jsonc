@@ -3,9 +3,6 @@
         "format": "{icon}",
         "on-scroll-up": "hyprctl dispatch 'hl.dsp.focus({workspace=\"r-1\"})'",
         "on-scroll-down": "hyprctl dispatch 'hl.dsp.focus({workspace=\"r+1\"})'",
-        "persistent-workspaces": {
-            "*": 6
-        },
         "window-rewrite-default": "",
         "format-icons": {
             "active": "",

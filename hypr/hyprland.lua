@@ -4,6 +4,7 @@ require("lua.env")
 require("lua.keybinds")
 require("lua.look")
 require("lua.misc")
+require("lua.workspaces")
 
 -----------------------
 ----- PERMISSIONS -----
