@@ -1,0 +1,5 @@
+#!/bin/bash
+
+hyprctl eval "hl.dispatch(hl.dsp.dpms({ monitor = 'DP-1', action = 'off' }))"
+sleep 0.5
+hyprctl eval "hl.dispatch(hl.dsp.dpms({ monitor = 'DP-1', action = 'on' }))"

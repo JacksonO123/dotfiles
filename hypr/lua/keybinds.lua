@@ -22,6 +22,7 @@ hl.bind(mainMod .. " + S", hl.dsp.exec_cmd(screenshot))                     -- d
 hl.bind(mainMod .. " + T", hl.dsp.exec_cmd(browser))                        -- dwindle only
 hl.bind(mainMod .. " + A", hl.dsp.exec_cmd(audio))                          -- dwindle only
 hl.bind(mainMod .. " + M", hl.dsp.window.fullscreen({ action = "toggle" })) -- dwindle only
+hl.bind(mainMod .. " + SHIFT + R", hl.dsp.exec_cmd("~/.config/hypr/scripts/fix-dp-link"))
 
 hl.bind(mainMod .. " + H", hl.dsp.focus({ direction = "left" }))
 hl.bind(mainMod .. " + L", hl.dsp.focus({ direction = "right" }))
