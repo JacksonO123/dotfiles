@@ -160,3 +160,11 @@ hl.layer_rule({
     blur = true,
     ignore_alpha = 0,
 })
+
+hl.layer_rule({
+    match = {
+        class = "hyprshot",
+    },
+    blur = false,
+    ignore_alpha = 0,
+})
