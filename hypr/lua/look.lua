@@ -168,3 +168,11 @@ hl.layer_rule({
     blur = false,
     ignore_alpha = 0,
 })
+
+hl.layer_rule({
+    match = {
+        class = "spotlight",
+    },
+    blur = true,
+    ignore_alpha = 0,
+})
