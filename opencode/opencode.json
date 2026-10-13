@@ -60,6 +60,10 @@
       }
     }
   },
+  "compaction": {
+    "auto": true,
+    "reserved": 2048
+  },
   "permission": {
     "read": {
       "*": "allow",
