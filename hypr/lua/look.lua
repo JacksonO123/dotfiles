@@ -155,23 +155,7 @@ hl.layer_rule({
 
 hl.layer_rule({
     match = {
-        class = "com.jackson.control_center",
-    },
-    blur = true,
-    ignore_alpha = 0,
-})
-
-hl.layer_rule({
-    match = {
-        class = "hyprshot",
-    },
-    blur = false,
-    ignore_alpha = 0,
-})
-
-hl.layer_rule({
-    match = {
-        class = "spotlight",
+        namespace = "gtk4-layer-shell",
     },
     blur = true,
     ignore_alpha = 0,
