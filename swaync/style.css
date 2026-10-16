@@ -1,3 +1,7 @@
+window {
+    background-color: transparent;
+}
+
 :root {
     /* --cc-bg: rgba(46, 46, 46, 0.7); */
     --cc-bg: rgba(24, 24, 24, 0.7);
@@ -338,6 +342,7 @@ blankwindow {
 .control-center {
     /* The Control Center which contains the old notifications + widgets */
     background: var(--cc-bg);
+    backdrop-filter: blur(10px);
     color: var(--text-color);
     border-radius: var(--border-radius);
     border: 1px solid rgb(var(--outer-border));
