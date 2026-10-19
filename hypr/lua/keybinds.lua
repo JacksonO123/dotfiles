@@ -2,7 +2,8 @@ local terminal = "alacritty"
 local fileManager = "dolphin"
 local browser = "google-chrome-stable"
 local audio = "pwvucontrol"
-local screenshot = "hyprshot -m region -o ~/screenshots"
+local screenshot =
+'grim -g "$(slurp)" - | satty --filename - --output-filename ~/screenshots/screenshot-$(date +%Y%m%d-%H%M%S).png'
 local menu = "~/.local/bin/spotlight --config ~/.config/jotto-utils/spotlight/desktop.conf"
 
 local mainMod = "SUPER"
