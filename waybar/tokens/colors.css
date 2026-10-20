@@ -81,9 +81,10 @@
 
 @define-color surface_bright #353a3d;
 
-/* @define-color surface_container #1b2023; */
-@define-color surface_container #202c30;
 /* @define-color surface_container transparent; */
+/* @define-color surface_container #1b2023; */
+/* @define-color surface_container #202c30; */
+@define-color surface_container #161e21;
 
 @define-color surface_container_high #252b2d;
 

@@ -16,7 +16,7 @@
             #fff 0,
             rgba(129, 129, 129, .75) 3%,
             rgba(56, 56, 56, .75) 50%,
-            rgba(27, 27, 27, .75) 50%);
+            rgba(8, 8, 8, .75) 50%);
     background-color: @surface_container;
     border-radius: 6px;
     border: 1px solid @outer-border;
