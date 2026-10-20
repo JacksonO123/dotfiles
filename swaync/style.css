@@ -686,9 +686,9 @@ switch {
     background:
         linear-gradient(to bottom,
             #fff 0,
-            rgba(129, 129, 129, .55) 3%,
-            rgba(56, 56, 56, .55) 50%,
-            rgba(27, 27, 27, .55) 50%);
+            rgba(129, 129, 129, .75) 3%,
+            rgba(56, 56, 56, .75) 50%,
+            rgba(8, 8, 8, .75) 50%);
     background-color: var(--btn-bg);
     border: 1px solid rgb(var(--outer-border));
     border-radius: var(--border-radius);
