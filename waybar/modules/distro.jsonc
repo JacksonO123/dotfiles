@@ -1,38 +1,44 @@
 {
   "image#distro": {
-    "path": "/home/jotto/dotfiles/waybar/assets/arch-org.png",
+    "path": "/home/jotto/.config/waybar/assets/arch-org.png",
     "size": 33,
-    "on-click": "~/.local/bin/control-center",
+    "on-click-release": "~/.local/bin/control-center",
+    "on-click": "true",
     "tooltip": false
   },
   "image#search": {
-    "path": "/home/jotto/dotfiles/waybar/assets/magnifying-glass-icon.png",
+    "path": "/home/jotto/.config/waybar/assets/magnifying-glass-icon.png",
     "size": 20,
-    "on-click": "~/.local/bin/spotlight --config ~/.config/jotto-utils/spotlight/desktop.conf",
+    "on-click-release": "~/.local/bin/spotlight --config ~/.config/jotto-utils/spotlight/desktop.conf",
+    "on-click": "true",
     "tooltip": false
   },
   "image#terminal": {
-    "path": "/home/jotto/dotfiles/waybar/assets/term-icon.png",
+    "path": "/home/jotto/.config/waybar/assets/term-icon.png",
     "size": 20,
-    "on-click": "alacritty",
+    "on-click-release": "alacritty",
+    "on-click": "true",
     "tooltip": false
   },
   "image#files": {
-    "path": "/home/jotto/dotfiles/waybar/assets/files-icon.png",
+    "path": "/home/jotto/.config/waybar/assets/files-icon.png",
     "size": 22,
-    "on-click": "dolphin",
+    "on-click-release": "dolphin",
+    "on-click": "true",
     "tooltip": false
   },
   "image#music": {
-    "path": "/home/jotto/dotfiles/waybar/assets/music-icon.png",
+    "path": "/home/jotto/.config/waybar/assets/music-icon.png",
     "size": 20,
-    "on-click": "spotify-launcher",
+    "on-click-release": "spotify-launcher",
+    "on-click": "true",
     "tooltip": false
   },
   "image#browser": {
-    "path": "/home/jotto/dotfiles/waybar/assets/browser-icon.png",
+    "path": "/home/jotto/.config/waybar/assets/browser-icon.png",
     "size": 26,
-    "on-click": "google-chrome-stable",
+    "on-click-release": "google-chrome-stable",
+    "on-click": "true",
     "tooltip": false
   }
 }
