@@ -2,7 +2,7 @@
   "group/distro-group": {
     "orientation": "horizontal",
     "modules": [
-      "custom/distro",
+      "image#distro",
       "custom/search",
       "custom/terminal",
       // "custom/code",

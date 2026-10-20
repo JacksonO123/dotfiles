@@ -1,6 +1,7 @@
 {
-  "custom/distro": {
-    "format": "",
+  "image#distro": {
+    "path": "/home/jotto/dotfiles/waybar/assets/arch-org.png",
+    "size": 33,
     "on-click": "~/.local/bin/control-center",
     "tooltip": false
   },

@@ -5,9 +5,9 @@
     margin-right: 5px;
 }
 
-#custom-distro {
+#custom-distro, #image.distro {
     color: @primary;
-    padding: 8px 15px 4px 22px;
+    padding: 6px 8px 6px 14px;
 }
 
 #custom-search {
