@@ -3,13 +3,13 @@
     "orientation": "horizontal",
     "modules": [
       "image#distro",
-      "custom/search",
-      "custom/terminal",
+      "image#search",
+      "image#terminal",
       // "custom/code",
       // "custom/obsidian",
-      "custom/files",
-      "custom/spotify",
-      "custom/browser"
+      "image#files",
+      "image#music",
+      "image#browser"
     ]
   },
   "group/system": {

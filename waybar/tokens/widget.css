@@ -10,13 +10,13 @@
     padding: 6px 8px 6px 14px;
 }
 
-#custom-search {
+#custom-search, #image.search {
     color: #cccccc;
     padding: 0px 10px;
     padding-top: 4px;
 }
 
-#custom-terminal {
+#custom-terminal, #image.terminal {
     color: #a6e3a1;
     padding: 0px 10px;
     padding-top: 4px;
@@ -34,19 +34,19 @@
     padding-top: 4px;
 }
 
-#custom-files {
+#custom-files, #image.files {
     color: #f9e2af;
     padding: 0px 10px;
     padding-top: 4px;
 }
 
-#custom-spotify {
+#custom-spotify, #image.music {
     color: #1db954;
     padding: 0px 10px;
     padding-top: 4px;
 }
 
-#custom-browser {
+#custom-browser, #image.browser {
     color: #f28a6d;
     padding: 0px 15px 0px 10px;
     padding-top: 4px;
