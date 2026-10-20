@@ -1,19 +1,19 @@
 {
-    "hyprland/workspaces": {
-        "format": "{icon}",
-        "on-scroll-up": "hyprctl dispatch 'hl.dsp.focus({workspace=\"r-1\"})'",
-        "on-scroll-down": "hyprctl dispatch 'hl.dsp.focus({workspace=\"r+1\"})'",
-        "window-rewrite-default": "",
-        "format-icons": {
-            "active": "",
-            "special": "",
-            "default": "",
-            "urgent": "",
-            "empty": "",
-            "magic": "",
-            "special:magic": ""
-        },
-        "show-special": true,
-        "all-outputs": true
-    }
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "on-scroll-up": "hyprctl dispatch 'hl.dsp.focus({workspace=\"r-1\"})'",
+    "on-scroll-down": "hyprctl dispatch 'hl.dsp.focus({workspace=\"r+1\"})'",
+    "window-rewrite-default": "",
+    "format-icons": {
+      "active": "",
+      "special": "",
+      "default": "",
+      "urgent": "",
+      "empty": "",
+      "magic": "",
+      "special:magic": ""
+    },
+    "show-special": true,
+    "all-outputs": true
+  }
 }
