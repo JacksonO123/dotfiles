@@ -24,7 +24,6 @@ waybar/
 │   ├── idle-inhibitor.jsonc
 │   ├── power-profiles-daemon.jsonc
 │   ├── storage.jsonc
-│   ├── system.jsonc                 # CPU, RAM, temperature
 │   ├── tray-notif.jsonc             # Tray + SwayNC
 │   └── workspace.jsonc
 └── tokens/                          # CSS variables

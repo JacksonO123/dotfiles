@@ -24,4 +24,4 @@ Plugins=appimagethumbnail,audiothumbnail,glycin-heif,comicbookthumbnail,cursorth
 Location=Everywhere
 
 [UiSettings]
-ColorScheme=BreezeClassic
+ColorScheme=BreezeDark

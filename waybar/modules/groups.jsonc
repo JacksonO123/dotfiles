@@ -10,10 +10,6 @@
       "custom/browser"
     ]
   },
-  "group/system": {
-    "orientation": "horizontal",
-    "modules": ["disk", "memory", "temperature", "cpu"]
-  },
   "group/audio": {
     "orientation": "horizontal",
     "drawer": {
