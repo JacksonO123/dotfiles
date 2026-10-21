@@ -1,7 +1,7 @@
 {
   "image#distro": {
-    "path": "/home/jotto/.config/waybar/assets/arch-org.png",
-    "size": 33,
+    "path": "/home/jotto/.config/waybar/assets/arch-orb.png",
+    "size": 35,
     "on-click-release": "~/.local/bin/control-center",
     "on-click": "true",
     "tooltip": false
