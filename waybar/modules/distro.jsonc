@@ -6,37 +6,32 @@
     "on-click": "true",
     "tooltip": false
   },
-  "image#search": {
-    "path": "/home/jotto/.config/waybar/assets/magnifying-glass-icon.png",
-    "size": 20,
+  "custom/search": {
+    "format": " ",
     "on-click-release": "~/.local/bin/spotlight --config ~/.config/jotto-utils/spotlight/desktop.conf",
     "on-click": "true",
     "tooltip": false
   },
-  "image#terminal": {
-    "path": "/home/jotto/.config/waybar/assets/term-icon.png",
-    "size": 20,
+  "custom/terminal": {
+    "format": " ",
     "on-click-release": "alacritty",
     "on-click": "true",
     "tooltip": false
   },
-  "image#files": {
-    "path": "/home/jotto/.config/waybar/assets/files-icon.png",
-    "size": 22,
+  "custom/files": {
+    "format": " ",
     "on-click-release": "dolphin",
     "on-click": "true",
     "tooltip": false
   },
-  "image#music": {
-    "path": "/home/jotto/.config/waybar/assets/music-icon.png",
-    "size": 20,
+  "custom/music": {
+    "format": " ",
     "on-click-release": "spotify-launcher",
     "on-click": "true",
     "tooltip": false
   },
-  "image#browser": {
-    "path": "/home/jotto/.config/waybar/assets/browser-icon.png",
-    "size": 26,
+  "custom/browser": {
+    "format": " ",
     "on-click-release": "google-chrome-stable",
     "on-click": "true",
     "tooltip": false
