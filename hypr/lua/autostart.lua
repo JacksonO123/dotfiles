@@ -5,7 +5,8 @@
 
 hl.on("hyprland.start", function()
     hl.exec_cmd("hypridle")
-    hl.exec_cmd("waybar & hyprpaper")
+    hl.exec_cmd("quickshell --path /home/jotto/code/window-utils/quickshell/shell.qml")
+    hl.exec_cmd("hyprpaper")
     hl.exec_cmd("wl-paste --watch cliphist store")
     hl.exec_cmd("wl-copy --watch cliphist wipe")
     hl.exec_cmd("XDG_MENU_PREFIX=arch- kbuildsycoca6")

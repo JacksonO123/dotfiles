@@ -37,8 +37,8 @@ hl.config({
 
         blur = {
             enabled = true,
-            size = 4,
-            passes = 2,
+            size = 5,
+            passes = 1,
             vibrancy = 0.1696,
         },
     },
@@ -156,6 +156,14 @@ hl.layer_rule({
 hl.layer_rule({
     match = {
         namespace = "gtk4-layer-shell",
+    },
+    blur = true,
+    ignore_alpha = 0,
+})
+
+hl.layer_rule({
+    match = {
+        namespace = "aero-bar",
     },
     blur = true,
     ignore_alpha = 0,
