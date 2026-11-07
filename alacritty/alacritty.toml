@@ -1,14 +1,17 @@
+[general]
+import = ["~/things-from-source/alacritty-theme/themes/gruvbox_dark.toml"]
+
 [window]
 opacity = 0.95
-#opacity = 0.65
-padding.x = 10
-padding.y = 10
-decorations = "Full"
-decorations_theme_variant = "Dark"
-
-[colors.primary]
-background = "#181818"
-#background = "#232e36"
+##opacity = 0.65
+padding.x = 5
+padding.y = 5
+#decorations = "Full"
+#decorations_theme_variant = "Dark"
+#
+#[colors.primary]
+#background = "#181818"
+##background = "#232e36"
 
 [font]
 size = 10
