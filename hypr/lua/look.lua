@@ -37,8 +37,8 @@ hl.config({
 
         blur = {
             enabled = true,
-            size = 5,
-            passes = 1,
+            size = 2,
+            passes = 2,
             vibrancy = 0.1696,
         },
     },
@@ -164,6 +164,22 @@ hl.layer_rule({
 hl.layer_rule({
     match = {
         namespace = "aero-bar",
+    },
+    blur = true,
+    ignore_alpha = 0,
+})
+
+hl.layer_rule({
+    match = {
+        namespace = "aero-start-menu",
+    },
+    blur = true,
+    ignore_alpha = 0,
+})
+
+hl.layer_rule({
+    match = {
+        namespace = "aero-osd",
     },
     blur = true,
     ignore_alpha = 0,

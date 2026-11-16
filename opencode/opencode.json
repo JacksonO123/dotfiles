@@ -70,6 +70,20 @@
       "*.env": "deny"
     },
     "edit": "ask",
-    "bash": "ask"
+    "bash": {
+      "*": "ask",
+      "echo *": "allow",
+      "grep *": "allow",
+      "ls *": "allow",
+      "git show *": "allow",
+      "git diff *": "allow",
+      "git log *": "allow",
+      "cat *": "allow",
+      "head *": "allow",
+      "cd *": "allow",
+      "find *": "allow",
+      "sort *": "allow",
+      "tail *": "allow",
+    }
   }
 }
