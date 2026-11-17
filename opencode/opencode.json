@@ -62,7 +62,7 @@
   },
   "compaction": {
     "auto": true,
-    "reserved": 2048
+    "buffer": "15%"
   },
   "permission": {
     "read": {
